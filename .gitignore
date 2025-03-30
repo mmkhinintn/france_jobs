@@ -1,0 +1,28 @@
+# Ignore les fichiers et dossiers spécifiques à PyCharm
+.idea/
+
+# Ignore les fichiers de logs
+logs/
+
+# Ignore les fichiers d'environnement et secrets
+.env
+
+# Ignore les fichiers compilés Python
+.pytest_cache/
+api/__pycache__
+api/tests/__pycache__
+api/logs/__pycache__
+api/tests/logs/__pycache__
+tests/__pycache__
+api/migrations/__pycache__
+tests/migrations/__pycache__
+tests/logs/__pycache__
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.mypy
+*pytest_cache__
+# Ignore les fichiers de dépendances et environnements virtuels
+venv/
+.env/
